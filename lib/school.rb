@@ -19,7 +19,7 @@ def add_student(name, grade)
  def sort
    @sort=@roster
    @sort.each do |k,v|
-     v.sort
+     v.sort!
  end
 end
 
