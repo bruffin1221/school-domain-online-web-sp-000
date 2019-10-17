@@ -17,7 +17,7 @@ def add_student(name, grade)
  end
 
  def sort
-   @sort=@roster.sort!{|k,v| v}
+   @sort=@roster.sort_by!{|k,v| v}
  end
 
 end
