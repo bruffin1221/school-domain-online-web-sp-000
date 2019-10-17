@@ -16,8 +16,12 @@ def add_student(name, grade)
    @grade=@roster[grade]
  end
 
- def sort(roster, grade)
-   @sort=@roster[grade]
+ def sort
+   @sort=@roster
+   @sort.each do |k,v|
+     v.sort_by|person|
+     person
+   end
  end
 
 end
