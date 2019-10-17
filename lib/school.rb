@@ -21,5 +21,6 @@ def add_student(name, grade)
    @sort.map do |k,v|
      v.sort|
  end
+end
 
 end
