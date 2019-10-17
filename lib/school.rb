@@ -17,7 +17,7 @@ def add_student(name, grade)
  end
 
  def sort
-   @sort=@roster.sort.flatten.to_s
+   @sort=@roster.sort.flatten.split
  end
 
 end
