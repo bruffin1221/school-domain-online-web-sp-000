@@ -18,7 +18,8 @@ def add_student(name, grade)
 
  def sort
    @sort=@roster
-   @sort.map{|k,v| v.sort{|person| person}}
+   @sort.map do |k,v|
+     v.sort|
  end
 
 end
