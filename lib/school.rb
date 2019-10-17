@@ -17,7 +17,7 @@ def add_student(name, grade)
  end
 
  def sort
-   @sort=sort_by{|v| v}
+   @sort=sort{|v| v}
  end
 
 end
